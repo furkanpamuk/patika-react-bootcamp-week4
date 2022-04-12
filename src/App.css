@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Handlee', cursive;
+    background-color: #2D2D2D;
+    color: #fff;
+  }
+  .bg-wrong{
+    background-color: #c70000;
+  }
+  .bg-success{
+    background-color: #07db00;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }

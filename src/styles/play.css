@@ -1,0 +1,58 @@
+
+.playInfo {
+    text-align: end;
+    margin-top: 65px;
+    margin-right: 33px;
+}
+.playInfo > span {
+    margin-left: 86px;
+    font-size: 48px;
+}
+
+.questionArea {
+    padding-left: 134px;
+    display: flex;
+    position: relative;
+}
+.operation {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.operation > span {
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+.answers {
+    margin-left: 100px;
+    width: 600px;
+    position: relative;
+}
+.answers > div {
+    display: inline-block;
+    cursor: pointer;
+}
+.answerBox {
+    position: relative;
+}
+.answerBox > span {
+    font-size: 90px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+.answer-1 {
+    position: absolute;
+    top: 200px;
+}
+.answer-2 {
+    position: absolute;
+    top: 280px;
+    right: 0;
+}
+.answer-3 {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}

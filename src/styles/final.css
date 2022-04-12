@@ -1,0 +1,50 @@
+
+.final {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.finalResults, .restartBox, .tourResults, .finResHeader, .allQuestions, .questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.finResHeader > h1, svg {
+    color: red;
+    font-size: 82px;
+}
+
+
+.finalResults span {
+    margin-top: 40px;
+    font-size: 64px;
+}
+.restartBox {
+    margin-top: 40px;
+    position: relative;
+}
+
+.restartBox > svg {
+    position: absolute;
+    top: -85px;
+}
+.restartBox > svg:hover {
+    cursor: pointer;
+}
+
+
+.allQuestions {
+    padding-top: 12px;
+}
+.questionsHeader > h1 {
+    font-size: 64px;
+    color: red;
+}
+
+.questions > span {
+    font-size: 52px;
+    margin-right: 39px;
+}
+.question > svg {
+    margin-left: 39px;
+}
